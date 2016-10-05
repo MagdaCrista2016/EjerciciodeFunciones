@@ -1,13 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="./js/main.js"></script>
-  <title>Document</title>
+  <script src="./js/main.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Calculador</title>
 </head>
 <body>
-
+  <main>
+    <section id="io">
+      <input id="input" type="text">
+      <output id="result"></output>
+      <p id="errors"></p>
+    </section>
+    <section id="controlpad">
+      <ul id="numbers">
+        <li><button type="button" name="button">9</button></li>
+        <li><button type="button" name="button">8</button></li>
+        <li><button type="button" name="button">7</button></li>
+        <li><button type="button" name="button">6</button></li>
+        <li><button type="button" name="button">5</button></li>
+        <li><button type="button" name="button">4</button></li>
+        <li><button type="button" name="button">3</button></li>
+        <li><button type="button" name="button">2</button></li>
+        <li><button type="button" name="button">1</button></li>
+        <li><button type="button" name="button">0</button></li>
+      </ul>
+      <ul id="operators">
+        <li><button type="button" name="button">+</button></li>
+        <li><button type="button" name="button">*</button></li>
+        <li><button type="button" name="button">-</button></li>
+        <li><button type="button" name="button">/</button></li>
+        <li><button type="button" name="button">=</button></li>
+        <li><button type="button" name="button">%</button></li>
+        <li><button type="button" name="button">C</button></li>
+        <li><button type="button" name="button">.</button></li>
+        <li><button type="button" id="clear">.</button></li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>

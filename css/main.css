@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+* {
+  margin:0;
+  padding: 0;
+ }
+
+main {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  direction: rtl;
+  text-align: left;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+
+ul li {
+  display:inline-block;
+  margin: 8px;
+  line-height: 0;
+  font-size: 0;
+
+}
+
+button {
+  width: 48px;
+  height: 48px;
+
+}
+
+#controlpad {
+  width: 450px;
+      margin: 0 auto;
+}
+
+#numbers {
+  width: 200px;
+
+}
+
+#operators {
+width: 200px;
+}
+
+
+#io {
+  width: 450px;
+    margin: 0 auto;
+    /* display: block; */
+    /* float: left; */
+"
+}
